@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color:#ccddff;
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
+}
+.todolist{
+    width: 150%;
+    min-height: 25vh;
+    color: white;
+    background-color: lightblue;
+}
+.header{
+    position: relative;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+
+}
+.search{
+    border: none;
+    position: relative;
+    color: green;
+    font-size: 20px;
+    background-color:white;
+    width: 100%;
+    min-height: 4vh;
+    padding-left: 9px;
+    border-radius: 20px;
+}
+.main1{
+    position: relative;
+}
+.add{
+    color: green;
+    position: absolute;
+    right: 5%;
+    top: 75%;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+}
+.main{
+    position: relative;
+}
+.remove{
+    color: red;
+    position: absolute;
+    right: 5%;
+    top: 26%;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+}
+.data{
+    position: relative;
+    color: green;
+    font-size: 20px;
+    background-color:white;
+    width: 100%;
+    min-height: 4vh;
+    padding-left: 9px;
+    border-radius: 20px;
+}
+.errorMessage{
+    color: red;
+    font-size: 20px;
+}
